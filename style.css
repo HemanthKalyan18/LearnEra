@@ -1,0 +1,175 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 15px 20px;
+}
+
+header .logo {
+    color: #ecf0f1;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+section.dashboard {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section.dashboard h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color:lavender;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card h2 {
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #7f8c8d;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50
+}
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the column width as needed */
+    gap: 20px;
+}
+
+.card ul li {
+    text-align: center;
+}
+
+.card ul li img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px; /* Adjust the card width as needed */
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto; /* Center the card horizontally */
+    width: 300px; /* Adjust the card width as needed */
+  }
+.profile {
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .profile-details,
+  .profile-settings {
+    display: flex; /* Arrange elements side-by-side */
+    align-items: center; /* Vertically align content in the center */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a solid border with color #ddd */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+  
+  .profile-details img {
+    width: 150px; /* Set image width */
+    height: 150px; /* Set image height */
+    border-radius: 50%; /* Make the image a circle */
+    margin-right: 20px; /* Add spacing between image and text */
+  }
+  
+  .profile-details h2,
+  .profile-settings h2 {
+    margin-bottom: 10px; /* Add spacing below headings */
+  }
+  
+  .profile-details p {
+    line-height: 1.5; /* Adjust line spacing for better readability */
+  }
+  
+  .profile-settings ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .profile-settings li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  .profile-settings a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link color */
+  }
+  
+  .profile-settings a:hover {
+    color: #666; /* Change link color on hover */
+  }
